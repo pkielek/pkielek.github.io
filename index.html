@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="is-booting">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Piotr Kiełek — Fullstack Software Engineer</title>
+<meta name="description" content="One-page portfolio - PHP, Laravel, Flutter, FastAPI, PyTorch">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<main class="stage" id="stage" data-state="default">
+
+  <div class="dial-wrap" id="dialWrap">
+    <svg class="dial" id="dial" viewBox="0 0 1000 1000" role="group" aria-label="Portfolio sections, arranged as a clock">
+      <defs>
+        <radialGradient id="ambient" cx="50%" cy="50%" r="50%">
+          <stop class="amb-0" offset="0%"/>
+          <stop class="amb-1" offset="62%"/>
+          <stop class="amb-2" offset="100%"/>
+        </radialGradient>
+        <radialGradient id="coneScrim" gradientUnits="userSpaceOnUse" cx="500" cy="500" r="500">
+          <stop class="cone-0" offset="0%"/>
+          <stop class="cone-1" offset="40%"/>
+          <stop class="cone-2" offset="62%"/>
+          <stop class="cone-3" offset="100%"/>
+        </radialGradient>
+        <radialGradient id="fog" cx="50%" cy="50%" r="50%">
+          <stop class="fog-0" offset="0%"/>
+          <stop class="fog-1" offset="58%"/>
+          <stop class="fog-2" offset="82%"/>
+          <stop class="fog-3" offset="100%"/>
+        </radialGradient>
+      </defs>
+
+      <circle class="ambient" cx="500" cy="500" r="480" fill="url(#ambient)"/>
+
+      <g id="wheel" class="wheel">
+        <g id="wedges"></g>
+        <circle class="center-fog" cx="500" cy="500" r="350" fill="url(#fog)"/>
+        <g id="ticks"  class="ticks"></g>
+        <g id="labels" class="labels"></g>
+      </g>
+
+      <g id="marker" class="marker">
+        <path class="marker-arc"  id="markerArc"/>
+        <line class="marker-stem" x1="500" y1="62" x2="500" y2="38"/>
+        <circle class="marker-dot" cx="500" cy="32" r="4.5"/>
+      </g>
+
+      <circle class="rim" cx="500" cy="500" r="440"/>
+    </svg>
+
+    <div class="hub" id="hub">
+      <div class="hub-face hub-default" id="hubDefault"></div>
+      <div class="hub-face hub-focus"   id="hubFocus"></div>
+    </div>
+  </div>
+
+  <aside class="panel" id="panel" aria-live="polite" aria-hidden="true">
+    <div class="panel-inner" id="panelInner"></div>
+  </aside>
+
+  <button class="scrim-close" id="scrimClose" type="button" aria-label="Back to the start"></button>
+
+</main>
+
+<nav class="lang" id="lang" aria-label="Language / Język">
+  <button type="button" data-lang="en" lang="en" aria-current="true">EN</button>
+  <span class="lang-sep" aria-hidden="true"></span>
+  <button type="button" data-lang="pl" lang="pl" aria-current="false">PL</button>
+</nav>
+
+<script src="content.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
