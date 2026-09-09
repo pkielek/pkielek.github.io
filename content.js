@@ -278,7 +278,7 @@ window.CONTENT = {
             {
               name: { en: "Backend", pl: "Backend" },
               core: ["PHP 7/8", "Laravel", "Python", "FastAPI"],
-              also: ["SQLAlchemy", "RESTful API"]
+              also: ["SQLAlchemy", "RESTful API", "WebSockets"]
             },
             {
               name: { en: "Databases", pl: "Bazy danych" },
