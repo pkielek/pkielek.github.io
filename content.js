@@ -90,9 +90,9 @@ window.CONTENT = {
         pl: "Przez cały okres studiów uczyłem się na kierunku informatyka stosowana na Politechnice Łódzkiej."
       },
       image: {
-        src: "assets/lodex.jpg",
+        src: "assets/education.jpeg",
         alt:     { en: "TUL Campus", pl: "Kampus PŁ" },
-        caption: { en: "Lodz University of Technology", pl: "Politechnika Łódzka" }
+        caption: { en: "Obrona pracy magisterskiej", pl: "Master thesis defence" }
       },
       blocks: [
         {
@@ -194,10 +194,9 @@ window.CONTENT = {
         pl: "Już w połowie studiów inżynierskich zacząłem zdobywać doświadczenie zawodowe."
       },
       image: {
-        src: "assets/toya.jpg",
-        focus: "right",
+        src: "assets/toya2.jpg",
         alt:     { en: "Workplace", pl: "Miejsce pracy" },
-        caption: { en: "TOYA", pl: "TOYA" }
+        caption: { en: "TOYA light installation at Light Move Festival 2026, representing the RND Team, where I work", pl: "Instalacja świetlna TOYA na Light Move Festival 2026, reprezentująca Dział Rozwoju, w którym pracuję" }
       },
       blocks: [
         {
@@ -510,6 +509,7 @@ window.CONTENT = {
       kicker: { en: "The parts that do not fit on a CV", pl: "To, co nie mieści się w CV" },
       lede:   { en: "After leaving the office.", pl: "Co po wyjściu z biura." },
       image: {
+        focus: "25% 30%",
         src: "assets/personal.jpg",
         alt:     { en: "Holidays 2025", pl: "Wakacje 2025" },
         caption: { en: "Holidays 2025", pl: "Wakacje 2025" }
