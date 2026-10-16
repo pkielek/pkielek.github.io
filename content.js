@@ -511,8 +511,8 @@ window.CONTENT = {
       image: {
         focus: "25% 30%",
         src: "assets/personal.jpg",
-        alt:     { en: "Holidays 2025", pl: "Wakacje 2025" },
-        caption: { en: "Holidays 2025", pl: "Wakacje 2025" }
+        alt:     { en: "Holidays 2026", pl: "Wakacje 2026" },
+        caption: { en: "Holidays 2026", pl: "Wakacje 2026" }
       },
       blocks: [
         {
@@ -534,9 +534,10 @@ window.CONTENT = {
           type: "facts",
           title: { en: "Currently", pl: "Aktualnie" },
           items: [
-            { k: { en: "Playing",  pl: "Gram w" },  v: { en: "League of Legends (unfortunately) and PAYDAY 2", pl: "League of Legends (niestety) i PAYDAY 2" } },
-            { k: { en: "Working on", pl: "Pracuję nad" },  v: { en: "Breaking my step-count records", pl: "Pobijaniem rekordów liczby kroków" } },
-            { k: { en: "Watching", pl: "Oglądam" }, v: { en: "Reacher and The Blacklist", pl: "Reacher i The Blacklist" } },
+            { k: { en: "Playing",  pl: "Gram w" },  v: { en: "Pokemon Legends: Arceus and World of Warcraft", pl: "Pokemon Legends: Arceus and World of Warcraft" } },
+            { k: { en: "Working on", pl: "Pracuję nad" },  v: { en: "Small MCP server and personal LLM usage", pl: "Małym serwerem MCP i wykorzystaniem LLM'ów w celach osobistych" } },
+            
+            { k: { en: "Watching", pl: "Oglądam" }, v: { en: "The Blacklist and 1670", pl: "The Blacklist i 1670" } },
             { k: { en: "Waiting for",  pl: "Czekam na" },  v: { en: "New release of Dragon Ball Super", pl: "Nowe wydanie Dragon Ball Super" } }
           ]
         },
